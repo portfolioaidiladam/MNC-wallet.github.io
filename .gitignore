@@ -1,0 +1,35 @@
+# ---- Go ----
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+coverage.*
+*.prof
+
+# ---- Env & secrets ----
+.env
+.env.local
+.env.*.local
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Local data volumes (if mounted outside Docker named volumes) ----
+/data/
+/tmp/
